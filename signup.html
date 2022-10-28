@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"><img src="img/star-2.svg" alt="df cinema logo" /></a>
+        <a href="index.html">Home</a>
+        <a href="whatson.html">What's On</a>
+        <a href="signup.html">Sign Up</a>
+    </nav>
+
+    <div class="container">
+        <div class="item left">
+            <img src="img/1.Halloween.jpeg" alt="halloween" class="img-resize">
+        </div>
+        <div class="item left">
+            <img src="img/2.movies.jpeg" alt="movies" class="img-resize">
+        </div>
+        <div class="item left">
+            <img src="/img/7.top-movies.png" alt="top-movies" class="img-reseize">
+        </div>
+        <div class=" item right">
+            <form>
+                <label for="title">Title*</label>
+                <select name="title" id="title" required>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Mr">Mr</option>
+                </select>
+                <label for="first-name">First Name*</label>
+                <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="date_picker" id="dob" value="1922-01-01" required>
+                <label for="phone">Phone*</label>
+                <input type="number" name="phone" id="phone" placeholder="Phone Number" required>
+                <div class="button-container">
+                    <button id="submit">Sign Me Up</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <footer>
+        <div id="images">
+            <img src="./img/icons/facebook.svg" alt="facebook" />
+            <img src="./img/icons/instagram.svg" alt="instagram" />
+            <img src="./img/icons/twitter.svg" alt="twitter" />
+        </div>
+        <div id="copyright">
+            <p>&copy DF Cinemas -2021-</p>
+        </div>
+    </footer>
+</body>
+
+</html>
