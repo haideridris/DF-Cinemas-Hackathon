@@ -62,14 +62,20 @@ nav a {
 }
 .sizing{
     height: 280px;
-    width: 380px;
+    width: 550px;
 }
 .movies{
     color:sandybrown;
+    font-weight: bold;
+    font-size:  1.75rem;
 }
 .daytable{
     color:sandybrown;
-    margin:2rem;
+    margin:3rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 2.5rem;;
+
 }
 .topAndBottom .box1 img {
     max-height: 100%;
@@ -214,13 +220,19 @@ footer .images {
 footer .copyright {
     padding: 50px;
 }
+footer .whatsonfooter{
+    margin: 4rem;
+    padding-left:70rem;
+}
+footer .whatsoncopyright{
+    padding-left:72rem;
+}
 .carousel .item {
     height: 400px;
     background-color: #777;
     margin-top: 0px;
 
 }
-
 
 .carousel-inner>.item>img {
     position: relative;
