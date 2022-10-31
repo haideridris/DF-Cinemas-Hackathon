@@ -22,10 +22,9 @@ The User Stories have been prioritised and ordered from 1 (most important) to 5 
 4. As a User, I want to be able to subscribe to the website using a form, so that I can receive the latest promotions and information.
 5. As a User, I want to be able to access the website on any device, so that I can access the information I need on the device of my choice.
 
-## Sample Texts
+## Sample Layout, Images and Texts
 
 **Footer**
-Follow us on social media
 
 &copy DF Cinemas -2021-
 
@@ -57,9 +56,6 @@ Opening Times (Image 7 - top movies):
 |Wednesday    |	10am–3am    |
 |Thursday     |	10am–3am    |
 
-Image 4
-
-The Shining
+The Shining (Image 8)
 
 Jack and his family move into an isolated hotel with a violent past. Living in isolation, Jack begins to lose his sanity, which affects his family members.
-
